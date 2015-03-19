@@ -88,11 +88,11 @@
 package=check_griderrors
 
 # Path to SGE installation
-export SGE_ROOT=<BASEPATH TO SGE INSTALLATION>
+# export SGE_ROOT=<BASEPATH TO SGE INSTALLATION>
 # Name of the SGE cell to be monitored
-export SGE_CELL=<NAME OF THE SGE CELL>
+# export SGE_CELL=<NAME OF THE SGE CELL>
 # Import environment
-source $SGE_ROOT/<NAME OF THE INSTALLATION>/common/settings.sh
+source $SGE_ROOT/$SGE_CELL/common/settings.sh
 # Extension of queues
 QEXT=".q"
 
